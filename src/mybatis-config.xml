@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  <configuration>
+  
+  <typeAliases>
+  	<package name="com.kai.db" />
+  </typeAliases>
+
+  	<mappers>
+		 <mapper resource="com/kai/db/mybatis/UserMapper.xml"/>
+		 <mapper resource="com/kai/db/mybatis/ManagerMapper.xml"/>
+		 <mapper resource="com/kai/db/mybatis/KindMapper.xml"/>
+		 <mapper resource="com/kai/db/mybatis/FoodMapper.xml"/>
+		 <mapper resource="com/kai/db/mybatis/OrderMapper.xml"/>
+		 <mapper resource="com/kai/db/mybatis/LineMapper.xml"/>
+    </mappers>
+
+  </configuration>  

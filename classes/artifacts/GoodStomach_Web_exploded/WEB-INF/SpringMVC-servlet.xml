@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+        http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+	
+	<!-- 配置映射器 HandlerMapping -->
+	<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+	
+	<!-- 配置适配器 HandlerAdapter-->
+	<bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
+	
+	<!-- 配置视图解析器 ViewResolver-->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>  
+		<property name="prefix" value="/jsp/"/>
+		<property name="suffix" value=".jsp"/>  
+	</bean>
+	
+	<!-- 开启注解模式驱动 -->
+    <mvc:annotation-driven></mvc:annotation-driven>
+    <!-- 扫包 -->
+    <context:component-scan base-package="com.kai.*"></context:component-scan>
+
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="UTF-8"/>
+        <!-- 指定所上传文件的总大小,单位字节。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->
+        <property name="maxUploadSize" value="10240000"/>
+    </bean>
+	
+	
+	<bean name="/index.action" class="com.kai.web.controller.IndexController"></bean>
+	<bean name="/indexHome.action" class="com.kai.web.controller.IndexHomeController"></bean>
+	<bean name="/indexAbout.action" class="com.kai.web.controller.IndexAboutController"></bean>
+	<bean name="/login.action" class="com.kai.web.controller.LoginController"></bean>
+	<bean name="/register.action" class="com.kai.web.controller.RegisterController"></bean>
+	<bean name="/registerSuccess.action" class="com.kai.web.controller.RegisterSuccessController"></bean>
+	
+	
+	<bean name="/managerLogin.action" class="com.kai.web.controller.BackLoginController"></bean>
+	<bean name="/managerLoginSuccess.action" class="com.kai.web.controller.BackLoginSuccessController"></bean>
+	
+	<bean name="/kindManager.action" class="com.kai.web.controller.KindManagerController"></bean>
+	<bean name="/kindAdd.action" class="com.kai.web.controller.KindAddController"></bean>
+	<bean name="/kindAddSuccess.action" class="com.kai.web.controller.KindAddSuccessController"></bean>
+	<bean name="/kindUpdate.action" class="com.kai.web.controller.KindUpdateController"></bean>
+	<bean name="/kindUpdateSuccess.action" class="com.kai.web.controller.KindUpdateSuccessController"></bean>
+	<bean name="/kindDelete.action" class="com.kai.web.controller.KindDeleteController"></bean>
+	
+	<bean name="/userManager.action" class="com.kai.web.controller.UserManagerController"></bean>
+	<bean name="/userDelete.action" class="com.kai.web.controller.UserDeleteController"></bean>
+	<bean name="/userLine.action" class="com.kai.web.controller.UserLineController"></bean>
+	
+	<bean name="/orderManager.action" class="com.kai.web.controller.OrderManagerController"></bean>
+	<bean name="/orderConfirm.action" class="com.kai.web.controller.OrderConfirmController"></bean>
+	<bean name="/orderDetail.action" class="com.kai.web.controller.OrderDetailController"></bean>
+	<bean name="/orderUpdate.action" class="com.kai.web.controller.OrderUpdateController"></bean>
+	<bean name="/orderUpdateSuccess.action" class="com.kai.web.controller.OrderUpdateSuccessController"></bean>
+	
+	<bean name="/foodManager.action" class="com.kai.web.controller.FoodManagerController"></bean>
+	<bean name="/foodAdd.action" class="com.kai.web.controller.FoodAddController"></bean>
+	<bean name="/foodUpdate.action" class="com.kai.web.controller.FoodUpdateController"></bean>
+	<bean name="/foodDelete.action" class="com.kai.web.controller.FoodDeleteController"></bean>
+	<bean name="/foodList.action" class="com.kai.web.controller.FoodListController"></bean>
+	<bean name="/foodDetail.action" class="com.kai.web.controller.FoodDetailController"></bean>
+	
+	<bean name="/shopCar.action" class="com.kai.web.controller.ShopCarController"></bean>
+	<bean name="/shopCarAdd.action" class="com.kai.web.controller.ShopCarAddController"></bean>
+	<bean name="/shopCarDelete.action" class="com.kai.web.controller.ShopCarDeleteController"></bean>
+	
+</beans>
