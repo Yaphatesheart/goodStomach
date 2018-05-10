@@ -88,6 +88,8 @@
   <bean id="lineDao" class="com.kai.db.mybatis.LineDaoImpl">  
   		 <property name="sqlSessionFactory" ref="sqlSessionFactory" />  
   </bean>
+
+
   
    
 </beans>

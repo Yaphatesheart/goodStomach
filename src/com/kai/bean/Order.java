@@ -28,7 +28,7 @@ public class Order implements Serializable{
 	/**
 	 * 关联关系 - 一对多 : 对应多个订单项
 	 * */
-	private Set<Line> lines = new HashSet<>();
+	private Set<Line> lines = new HashSet<Line>(16);
 	/**
 	 * 关联关系 - 多对一 : 对应一个顾客
 	 * */

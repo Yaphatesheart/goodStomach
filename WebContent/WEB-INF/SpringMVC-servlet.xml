@@ -74,5 +74,9 @@
 	<bean name="/shopCar.action" class="com.kai.web.controller.ShopCarController"></bean>
 	<bean name="/shopCarAdd.action" class="com.kai.web.controller.ShopCarAddController"></bean>
 	<bean name="/shopCarDelete.action" class="com.kai.web.controller.ShopCarDeleteController"></bean>
+
+	<bean name="/chefManager.action" class="com.kai.web.controller.ChefManagerController"></bean>
+
+	<bean name="/serviceManage.action" class="com.kai.web.controller.ServiceManageController"></bean>
 	
 </beans>

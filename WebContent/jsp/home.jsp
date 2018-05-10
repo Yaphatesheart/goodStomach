@@ -78,6 +78,10 @@
                     <li>
                         <a href="shopCar.action">购物车</a>
                     </li>
+
+                    <li>
+                        <a href="index.action">退出</a>
+                    </li>
                     
                 </ul>
             </div>

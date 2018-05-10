@@ -65,6 +65,12 @@ $(function(){
                     
                     <li url="orderManager.action"><a href="#">
                     <em class="base_roll"></em><span>订单管理</span></a></li>
+
+                    <li url="chefManager.action"><a href="#">
+                        <em class="base_roll"></em><span>厨师管理</span></a></li>
+
+                    <li url="serviceManage.action"><a href="#">
+                        <em class="base_roll"></em><span>上菜管理</span></a></li>
                 </ul>
             </div>
             <div class="right">
