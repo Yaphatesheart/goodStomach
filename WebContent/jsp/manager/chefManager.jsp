@@ -34,18 +34,15 @@
             columns: [[
                 {field: 'id', checkbox: true},
                 {field: 'moveid', title: '编号', width: 60},
-                {field: 'postingdate', title: '过帐日期', width: 80},
-                {field: 'transferreno', title: '移动单号', width: 100},
-                {field: 'movementcodename', title: '移动类型信息说明', width: 150},
-                {field: 'fromstoragelocation', title: '来源库位', width: 60},
-                {field: 'tostoragelocation', title: '接受库位', width: 60},
-                {field: 'frommaterial', title: '商品编码', width: 80},
-                {field: 'frombatchnumber', title: '商品批号', width: 80},
-                {field: 'quantity', title: '数量', width: 60},
-                {field: 'reasoncodename', title: '原因代码说明', width: 120},
-                {field: 'documentdatetime', title: '创建时间', width: 80},
+                {field: 'postingdate', title: '厨师姓名', width: 80},
+                {field: 'transferreno', title: '厨师年龄', width: 50},
+                {field: 'movementcodename', title: '职位', width: 50},
+                {field: 'fromstoragelocation', title: '工作年限', width: 60},
+                {field: 'tostoragelocation', title: '薪资待遇', width: 60},
+                {field: 'frommaterial', title: '入职时间', width: 80},
+                {field: 'quantity', title: '离职时间', width: 60},
                 {
-                    field: 'del_flag', title: '记录状态', width: 80,
+                    field: 'del_flag', title: '是否在职', width: 80,
                     formatter: function (value, row, index) {
                         if (value == '0') {
                             return '<a  href="javascript:void(0);" style="color: #000000;" onclick="updateDelFlag(' + value + ',' + row.moveid + ');">有效</a>';
@@ -462,14 +459,14 @@
         <table border="0">
             <input type="hidden" id="moveid" name="moveid" value="" style="width: 250px;">
             <tr style="height: 35px;">
-                <td>过帐日期：</td>
+                <td>入职日期：</td>
                 <td><input id="tb_postingdate" name="postingdate" style="width: 250px;" class="easyui-datebox"
                            required="required"
                            value="<%=new SimpleDateFormat("yyyy-MM-dd").format(new Date())%>"/>
                 </td>
             </tr>
             <tr style="height: 35px;">
-                <td>移动类型：</td>
+                <td>姓名：</td>
                 <td><input id="tb_movement_code" name="movement_ode" value="" style="width: 250px;"></td>
             </tr>
             <tr style="height: 35px;">
