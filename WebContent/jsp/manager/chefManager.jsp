@@ -437,11 +437,11 @@
 <div id="tb" style="width: auto; height: 80px;">
     <table style="width: auto; height: 75px;" cellspacing="0" border="0">
         <tr>
-            <td>开始时间：<input id="startDate" type="text" class="easyui-datebox" required="required"
+            <td>入职时间：<input id="startDate" type="text" class="easyui-datebox" required="required"
                             value="<%=new SimpleDateFormat("yyyy-MM-dd").format(new Date())%>"></input></td>
-            <td>结束时间：<input id="endDate" type="text" class="easyui-datebox" required="required"
+            <td>离职时间：<input id="endDate" type="text" class="easyui-datebox" required="required"
                             value="<%=new SimpleDateFormat("yyyy-MM-dd").format(new Date())%>"></input></td>
-            <td>移动类型：<input id="movement_ode" name="movement_ode" value="" style="width: 350px;"></td>
+            <td>姓名：<input id="movement_ode" name="movement_ode" value="" style="width: 350px;"></td>
             <td><a id="query" href="#" class="easyui-linkbutton" iconCls="icon-search"
                    onclick="checkInputQuery();">查询</a></td>
         </tr>
@@ -470,12 +470,12 @@
                 <td><input id="tb_movement_code" name="movement_ode" value="" style="width: 250px;"></td>
             </tr>
             <tr style="height: 35px;">
-                <td>来源库位：</td>
+                <td>工作年限：</td>
                 <td><input id="tb_fromstoragelocation" name="fromstoragelocation" value=""
                            style="width: 250px;"></td>
             </tr>
             <tr style="height: 35px;">
-                <td>接收库位：</td>
+                <td>职位：</td>
                 <td><input id="tb_tostoragelocation" name="tostoragelocation" value="" style="width: 250px;"></td>
             </tr>
             <tr style="height: 35px;">

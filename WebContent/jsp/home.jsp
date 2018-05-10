@@ -10,7 +10,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<base href="<%=basePath%>" />
+	<base href="<%=basePath %>" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -185,7 +185,7 @@
                     <div class="hover ehover">
                         <img class="img-responsive" src="images/food-1.jpg" alt="">
                         <div class="overlay">
-                            <a href="foodList.action?id=1" class="info btn btn-gold">更多。。。 </a>
+                            <a href="addShopCar.action?id=1" class="info btn btn-gold">加入购物车 </a>
                         </div>	
                         <h3>荤菜</h3>			
                     </div>
@@ -194,7 +194,7 @@
                     <div class="hover ehover">
                         <img class="img-responsive" src="images/food-2.jpg" alt="">
                         <div class="overlay">
-                            <a href="foodList.action?id=2" class="info btn btn-gold">更多。。。 </a>
+                            <a href="addShopCar.action?id=2" class="info btn btn-gold">加入购物车 </a>
                         </div>	
                         <h3>素菜</h3>			
                     </div>
@@ -203,14 +203,14 @@
                     <div class="hover ehover">
                         <img class="img-responsive" src="images/food-3.jpg" alt="">
                         <div class="overlay">
-                            <a href="foodList.action?id=4" class="info btn btn-gold">更多。。。 </a>
+                            <a href="addShopCar.action?id=4" class="info btn btn-gold">加入购物车 </a>
                         </div>
                         <h3>点心</h3>			
                     </div>
                 </div>
                 
                 <div class="col-md-12 col-sm-12 col-xs-12 call-to-btn">
-                	<a href="foodList.action?id=3" class="btn btn-white">更多。。。</a>
+                	<a href="foodList.action?id=3" class="btn btn-white">加入购物车</a>
                 </div>
                 
             </div>
