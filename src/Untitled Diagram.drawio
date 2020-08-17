@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T11:55:15.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="k-x33L_4q_ONCaqXITy1" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-17T11:57:15.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="mQBNgCFgZfLstNNZk6Qy" version="13.6.2" type="github">
   <diagram id="P6TvXCnjRWAEkAIBW0NS" name="Page-1">
     <mxGraphModel dx="1057" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,8 +94,8 @@
             <mxPoint x="510" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUx9ikr47q5RDLOfCzzH-29" value="双活集群&lt;br&gt;数据同步" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;gradientColor=#ffd966;" vertex="1" parent="1">
-          <mxGeometry x="397" y="633.75" width="55" height="36.25" as="geometry" />
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-29" value="双活集群&lt;br&gt;数据同步" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="629.38" width="55" height="40.62" as="geometry" />
         </mxCell>
         <mxCell id="oUx9ikr47q5RDLOfCzzH-35" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" target="oUx9ikr47q5RDLOfCzzH-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
