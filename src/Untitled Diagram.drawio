@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T11:57:15.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="mQBNgCFgZfLstNNZk6Qy" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-17T12:03:25.565Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="tcbVi0ygNBkeatY2JHbh" version="13.6.2" type="github">
   <diagram id="P6TvXCnjRWAEkAIBW0NS" name="Page-1">
-    <mxGraphModel dx="1057" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2236" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,6 +129,15 @@
         </mxCell>
         <mxCell id="oUx9ikr47q5RDLOfCzzH-46" value="消息异常监听器&lt;br&gt;MessageExceptionListener" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="614" y="745" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-47" value="&lt;font color=&quot;#7f00ff&quot;&gt;&lt;span style=&quot;font-size: 19px&quot;&gt;生产者组件&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="290" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-48" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#ff8000&quot;&gt;集群架构&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="610" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-49" value="&lt;font style=&quot;font-size: 19px&quot; color=&quot;#00ffff&quot;&gt;消费者组件&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="790" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
