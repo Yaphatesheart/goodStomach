@@ -1,1 +1,136 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T11:19:56.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="BRvSkx5ydVsO9syJfS3B" version="13.6.2" type="github"><diagram id="P6TvXCnjRWAEkAIBW0NS" name="Page-1">1ZjRbtsgFIafhstOtokxXNqp00pbJm3dtK43E7Fx7JWYiJAm2dMPCEns2m1aLYk0W4rg54Dx+TgHHACHs/WNpPNyLHLGQeDlawCvQRDgAdK/RthshTB0wlRW+VbyD8Jd9Yc50XPqssrZomWohOCqmrfFTNQ1y1RLo1KKVdusELz91Dmdso5wl1HeVX9UuSrdawXRQb9l1bTcPdlHZNsyoztj9yaLkuZi1ZBgCuBQCqG2pdl6yLjx3c4v236jF1r3E5OsVm/p8Iex34/B6uvDPVx/rn6mDI8/XgXbUZ4oX7oXdpNVm50HpFjWOTOD+AAmq7JS7G5OM9O60si1VqoZd80LJcUjGwoupO0NR/ryPN3Sna57gycmFVs3JDf9GyZmTMmNNnGtyHnSLSWfuPrqAAaFTisbUALPidQthul+6IO/dMG57B3ug133pREgA0BGIB2AJAZxBFIMsAdwaJqSISAQpCGIrwHBtpCChJgCISDGIEBczzqZSF2amtJXOplUavzlG5vNOVXat7WiVc3kv4EqKs4bmJifhyzqA0hQBCk6DUDSBrgPjQZAP+oBiM7Fb/A+fggkCGBsCtgH8cgYx75BqG30bzywjBOAB7Z7YuzfQrSo5GxIOZ/Q7PE/5BpEx8Hug/AiYMMesF16oSGMbUHrJLIFHaHI8tRsoTEmKdAL97UInVf5mC0Wei/QLK3bThudRcFQlvVRzCMyOVV6Db03hCe+JEV0/t3J86z7croo96OcwJfRs1Tnhz2+HPTtVfhczox6QoIAHAF8bZf7CBC7RZmdCdk0qDen8LV1b6bl1v0trXP+r6t+KmleaZ83AE3s3RMRobn7kCJ7nYYifhYR+82pSTG4ZETgHoj2DEFim6oik+NMgovdOUNnN0PzRYgjprLyCMQj2NqMeyAWRU4skk5aK4IX0hqaoPBMEIO+ULwoxN23zXOK+sTgm1BMBi7wtILtkUJnE/wqRVrxU0LsgMqyflAQQQLz84CC8IKgfjxs0l+ed/Pp+7L+XMwXX+j44crveJHl+uvQVYVUpZiKmvL0oDYcafaVg80nIebOu7+ZUhv3qUuXSrRJsHWl7k33D6Gr/Wy0XK/dyLaycZXtPM3kWr7vwbEQS5mx43uuonLK1DG7LkvJ9JG2emrP4x1gdPXwSWzbGv8rwPQv</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-17T11:54:48.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="QSbEZBwYBuQnal6GcACC" version="13.6.2" type="github">
+  <diagram id="P6TvXCnjRWAEkAIBW0NS" name="Page-1">
+    <mxGraphModel dx="1057" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFF00;" parent="1" vertex="1">
+          <mxGeometry x="60" y="140" width="700" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-3" value="生产者缓存容器&lt;br&gt;RabbitMQTemplateContainer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-4" value="生产者消息确认组件&lt;br&gt;RabbitMQTemplateConfirmCallback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="314" y="170" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-5" value="消息序列化解析器&lt;br&gt;RapidMessageConverter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="550" y="170" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-6" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="150" width="140" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-7" value="重试策略器&lt;br&gt;RetryMessageHandler" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="800" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-8" value="定时抓取器&lt;br&gt;FetchMessageHandler" style="whiteSpace=wrap;html=1;rounded=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="800" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zeejk2wRZX3xNiYEe8MK-10" value="失败处理器&lt;br&gt;FailMessageHandler" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="800" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WZyE_00GLUunNfpsQaMZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zeejk2wRZX3xNiYEe8MK-6" target="zeejk2wRZX3xNiYEe8MK-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-1" value="生产者发送处理器&lt;br&gt;RabbitBrokerProvider" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-2" value="消息发送客户端&lt;br&gt;ProducerClient" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-3" value="队列异步存储器&lt;br&gt;AsyncQueue" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="394" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-4" value="消息临时等待发送器&lt;br&gt;MessageHolder" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-5" value="迅速消息设置器&lt;br&gt;RapidMessageSetter" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-6" value="延迟消息设置器&lt;br&gt;DelayMessageSetter" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-7" value="顺序消息设置器&lt;br&gt;OrderMessageSetter" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fillColor=#d5e8d4;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-8" value="可靠性消息投递存储器&lt;br&gt;MessageStoreService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="550" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-9" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="482" width="690" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-10" value="Keepalived高可用" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="1">
+          <mxGeometry x="90" y="490" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-11" value="Keepalived高可用" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#ae4132;fillColor=#fad9d5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-12" value="HaProxy负载均衡器" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="540" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-14" value="HaProxy负载均衡器" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="540" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-15" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="90" y="610" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-17" value="内存镜像" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="100" y="622.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-18" value="磁盘镜像" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="200" y="622.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-19" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="514" y="612.5" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-20" value="内存镜像" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="530" y="622.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-21" value="磁盘镜像" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#d79b00;fillColor=#ffcd28;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="650" y="622.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-22" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="oUx9ikr47q5RDLOfCzzH-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="650" as="sourcePoint" />
+            <mxPoint x="510" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-29" value="双活集群&lt;br&gt;数据同步" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="397" y="633.75" width="55" height="36.25" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-35" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" target="oUx9ikr47q5RDLOfCzzH-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="650" as="sourcePoint" />
+            <mxPoint x="510" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-36" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 16px&quot;&gt;RabbitMQ集群&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="682.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-37" value="&lt;font color=&quot;#cc0000&quot; style=&quot;font-size: 16px&quot;&gt;RabbitMQ集群&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="682.5" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-40" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="740" width="700" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-41" value="消费者监听容器&lt;br&gt;RabbitListenerContainer" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="80" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-42" value="消费者幂等性保障拦截器&lt;br&gt;IdempotentRabbitHandler" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-43" value="消费者存储路由选择器&lt;br&gt;DBRoutingSelector" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="440" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-44" value="消息异步处理器&lt;br&gt;AsyncMessageInter" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#996185;gradientColor=#d5739d;fillColor=#e6d0de;" vertex="1" parent="1">
+          <mxGeometry x="90" y="820" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-45" value="消费存储幂等服务&lt;br&gt;IdempotentMessageService" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="260" y="820" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oUx9ikr47q5RDLOfCzzH-46" value="消息异常监听器&lt;br&gt;MessageExceptionListener" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="614" y="745" width="140" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
